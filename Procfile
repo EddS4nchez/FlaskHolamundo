@@ -1,1 +1,2 @@
-web: gunicorn holamundo:app
+web: gunicorn app
+:app
