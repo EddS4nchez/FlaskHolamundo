@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask en Railway</title>
+</head>
+<body style="background-color: #1a1a1a; color: white; font-family: sans-serif; text-align: center; margin-top: 100px;">
+
+    <h1>¡Hola Mundo desde Flask!</h1>
+    <p>Si estás viendo esto, tu plantilla HTML cargó perfectamente en Railway.</p>
+
+</body>
+</html>
