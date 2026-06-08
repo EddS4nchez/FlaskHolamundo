@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 
 app = Flask(__name__)
@@ -8,4 +9,6 @@ def hola_mundo():
 
 # Ejecutar la aplicación
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    # Esto permite que Railway asigne el puerto automáticamente
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
